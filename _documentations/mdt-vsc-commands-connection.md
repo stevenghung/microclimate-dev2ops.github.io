@@ -19,14 +19,14 @@ parent: mdt-vsc-commands-overview
 
 ***
 
-Right-click the background of the Microclimate view to access the New connection commands. Right-click an existing connection to access the other connection commands. All commands are available in the Command Palette.
+Right-click the background of the Microclimate view to access the new connection commands. Right-click an existing connection to access the other connection commands. All commands are available in the Command Palette.
 
 The tools support only local instances of Microclimate, so only one connection at a time is necessary.
 
 ## Commands
 
 ### **New default local Microclimate connection**
-Connect to a local Microclimate instance at the default location of `localhost:9090`. The default connection should be all you need, but if you have changed your Microclimate port, see **New Microclimate connection**.
+Connect to a local Microclimate instance at the default location of `localhost:9090`. The default connection should be all you need, but if you changed your Microclimate port, see **New Microclimate connection**.
 
 ### **New Microclimate connection**
 Prompt for the connection port and connect to Microclimate at `localhost:<port>`.

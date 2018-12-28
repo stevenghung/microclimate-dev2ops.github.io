@@ -140,6 +140,7 @@ Java Spring Boot projects are built by using Maven and produce stand-alone runna
 Requirements:
 
 - The project must be a valid Spring Boot project. The `pom.xml` must contain a dependency on an artifact from the `<groupId>org.springframework.boot</groupId> group`.
+- The `artifactId` value in the `pom.xml` file must match the project name.
 - Configure the project to build with Maven and produce a exectutable `.jar` file.
 - Configure the application to use port 8080.
 - Copy the executable `.jar` file produced by the Maven build to `/app.jar` within the Docker container. To do this, simply add a `COPY` instruction to the Dockerfile. If your project does not have a Dockerfile, one is generated for you.

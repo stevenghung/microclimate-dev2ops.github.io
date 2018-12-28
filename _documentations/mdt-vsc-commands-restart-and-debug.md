@@ -19,7 +19,7 @@ parent: mdt-vsc-commands-overview
 
 ***
 
-Restart and debug commands are available from right-clicking a project in the Microclimate view, and in the Command Palette.<br>
+Restart and debug commands are available in the Command Palette and by right-clicking a project in the Microclimate view.<br>
 You must restart a project in **Debug** mode before you can debug that project.<br>
 For a walkthrough of the debug functionality, see the [tutorial](mdt-vsc-tutorial).<br>
 

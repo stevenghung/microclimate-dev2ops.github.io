@@ -45,7 +45,7 @@ Install the [ESLint extension](https://marketplace.visualstudio.com/items?itemNa
 
 ## **Debug**
 ### **Liberty project remains in the Starting - Debug state**
-Liberty servers started in **Debug** mode do not start until the debugger attaches. Run the [attach debugger command](mdt-vsc-commands-restart-and-debug#attach-debugger) and the server starts. You can check the application logs to see if the server is starting.
+Liberty servers started in **Debug** mode do not start until the debugger attaches. Run the [attach debugger command](mdt-vsc-commands-restart-and-debug#attach-debugger), and the server starts. You can check the application logs to see if the server is starting.
 ### **Debugger attach fails with the message "Configured debug type "java" is not supported"**
 Install and enable the [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack).
 ### **Debugger fails to attach after restarting project into Debug mode**
